@@ -1,0 +1,120 @@
+.blocks ,.startDiv , .gameOver , .youWin{
+    width: 633px;
+    height: 633px;
+    margin: 0 auto;
+    
+}
+.gameOver , .youWin{
+    background: url(../images/bgc.jpg) ;
+    background-size:cover ;
+}
+
+.overSpan{
+font-weight: bold;
+    font-size: 50px;
+    color: #B72D2B;
+    
+}
+.time{
+    margin: 0 auto;
+    text-align: center;
+    width: 622px;
+    height: 21px;
+    color: white;
+    border-radius: 5px;
+    background-color: #B72D2B ;
+}
+.startDiv{
+    background: url(../images/bgc.jpg);
+    background-size: cover; 
+    display: grid;
+}
+span{
+    font-weight: bold;
+    font-size: 39px;
+    color: #B72D2B;
+    margin-top: 400px;
+}
+
+.resetDiv{
+    width: 160px;
+    margin: 0 auto;
+}
+.tryAgainDiv{
+    width: 145px;
+    margin: 0 auto;
+}
+.start_button , .tryAgain , .youWin{
+    cursor: pointer;
+    margin-top: 50px;
+}
+.reset , .start_button , .tryAgain{
+    border: 1px solid #B72D2B; 
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #B72D2B;
+}
+
+.block{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px 4px;
+    background: url('../images/cartoon-of-a-businessman-with-a-question-mark_1207-251.jpg');
+    background-size: cover;
+}
+
+.pic1{
+    background-image: url('../images/1.jpg');
+     background-size: cover;
+}
+
+.pic2{
+    background-image: url('../images/2.jpg');
+     background-size: cover;
+}
+
+.pic3{
+    background-image: url('../images/3.jpg');
+     background-size: cover;
+}
+
+.pic4{
+    background-image: url('../images/4.jpg');
+     background-size: cover;
+}
+
+.pic5{
+    background-image: url('../images/5.jpg');
+     background-size: cover;
+}
+
+.pic6{
+    background-image: url('../images/6.png');
+     background-size: cover;
+}
+
+.pic7{
+    background-image: url('../images/7.jpg');
+     background-size: cover;
+}
+
+.pic8{
+    background-image: url('../images/8.png');
+     background-size: cover;
+}
+
+
+.block>div{
+    width: 150px;
+    height: 150px;
+     background-size: cover;
+}
+
+.hide{
+    visibility: hidden;
+}

@@ -1,0 +1,72 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+.registrDiv{
+	background: #e9efeb;
+    opacity: 0.7;
+    display: grid;
+    width: 30%;
+    padding: 20px 5px;
+    margin: 81px auto 0;
+}
+.registrDiv form div{
+	display: grid;
+	margin: 20px auto;
+    width: 70%;
+}
+input{
+	outline: none;
+}
+.registrDiv form div input{
+	padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #89B99D;
+    border-radius: 5px;
+    color:#264633;
+}
+.registrDiv form div span{
+	font-size: 17px;
+    font-family: 'Arimo', sans-serif;
+    color:#264633;
+}
+.registrDiv form .submit input{
+	background: transparent;
+    font-size: 20px;
+    color: #264633;
+    cursor: pointer;
+    font-weight: bold;
+}
+.registrDiv form .submit input:hover{
+	background:#264633;
+	color: white;
+	transition: 0.5s; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    opacity: 0.7;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background-size: cover;
+  	transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+.icon{
+	width: 100px;
+	height: 50px;
+	margin: 10px;
+}
+.icon img{
+	height: 100%;
+	width: 100%;
+}

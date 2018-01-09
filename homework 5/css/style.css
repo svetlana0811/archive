@@ -1,0 +1,301 @@
+.backgroundDiv{
+	width: 100%;
+	height: 638px;
+	position: fixed;
+	
+}
+.h3{
+	margin-bottom: 15px;
+	color: #e8e1e1;
+
+}
+body{
+	background-image: url('../images/pic.png') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.titles .number{
+	padding: 10px 0;
+}
+#paragraphes{
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	padding: 15px 0;
+	color: white;
+	display: grid;
+	
+}
+
+.flex{
+	display: flex;
+}
+.readMore{
+	margin: 15px 0;
+	font-size: 10px;
+    border: 1px solid #c74343;
+    border-radius: 2px;
+    width: 59px;
+    padding: 5px;
+    background: #c74343;
+    color: white;
+}
+.block{
+	display: block;
+}
+.divPaSize{
+	margin: 15px;
+	width: 222px;
+}
+#blue{
+	border: 1px solid #0E88B1;
+    border-radius: 1px;
+    font-size: 12px;
+    background: #0E88B1;
+    color: white;
+    padding: 5px 10px;
+}
+#lettersBlue{
+	border: 1px solid #4e5a5e;
+    border-radius: 1px;
+    font-size: 12px;
+    background: #4e5a5e;
+    color: #0E88B1;
+    padding: 5px;
+
+}
+.opacAnnie {
+	margin-bottom: 12px;
+    opacity: 0.3;
+    font-size: 15px;
+}
+.spanAnnie{
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+#flexPics{
+	border-top: 1px solid #595c59;
+	display: flex;
+}
+.picSizes{
+	margin: 15px;
+	color: white;
+	display: grid;
+	width: 210px;
+}
+*{
+	margin: 0;
+	padding:0; 
+}
+#display{
+	display: none;
+}
+
+#display1{
+	
+	display: none;
+}
+#display{
+	display: none;
+}
+#coursesHover:hover #display,
+#schoolHover:hover #display1,
+#blogGover:hover #display4,
+#display3Hover:hover .display2,
+#pagesHover:hover .display3{
+	display: block;
+	position: absolute;
+	top: 40px;
+    left: 160px;
+}
+.liMenu:hover
+{
+	background: #006E92;
+}
+
+
+.fa-angle-down{
+	color: white;
+	font-size: 13px;
+	padding: 10px 15px 10px 2px;
+}
+.contentAll{
+	padding-top: 30px;
+	display: flex;
+	background: #2D343E;
+	width: 1100px;
+	margin:0 auto;
+}
+.fa-book{
+	color: #1e789a;
+}
+#ulDiv{
+	list-style:  none;
+	display: flex;
+	justify-content: space-around;
+
+}
+#inputView{
+	margin: 15px 0;
+	border: 1px solid #0e5a77;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+    background: #0e5a77;
+}
+.divSize{
+	padding: 25px;
+	width: 240px;
+}
+.border{
+	border-top: 1px solid #757171;
+}
+.threeArrows{
+	margin: 15px 30px;
+	width: 180px;
+}
+a{
+	color: #1e789a;
+	text-decoration: none;
+}
+.fa-arrow-right{
+	color: #1e789a;
+}
+.fa-arrow-right:before {
+    font-size: 10px;
+    content: "\f061";
+}
+
+.contentFirst{
+	color: #0e5a77;
+    list-style: square;
+    padding: 5px;
+}
+.header{
+	margin: 0 auto;
+	width: 1100px;
+	height: 40px;
+}
+
+.titles{
+	color:#1e789a; 
+}
+
+#display4{
+	display: none;
+}
+.numbers{
+	color: white;
+}
+
+
+.menu{
+	color: white;
+	font-size: 13px;
+	padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 6px;
+}
+.headerBackground{
+	background: #0E88B1;
+}
+.display3{
+
+	margin: 0 auto;
+	display: none;
+	width: 900px;
+	background: #2D343E;
+}
+.boxes>.fa {
+    float: right;
+    font-size: 25px;
+}
+
+.flexYoutube{
+	display: flex;
+}
+.fa-book:before {
+    color: white;
+    content: "\f02d";
+}
+.flotLeft{
+	float: left;
+}
+.boxes{
+	    padding: 15px;
+    background:#424952;
+    width: 160px;
+    border: 1px solid #7f8389;
+    border-radius: 3px;
+    display: inline-table;
+    margin: 15px;
+    color: white;
+}
+.display2{
+	display: none;
+}
+#display2{
+	padding-top: 30px;
+	background: #2D343E;
+	width: 1040px;
+	margin: 0 auto
+}
+#sizeDiv{
+	margin: 15px 60px;
+	width: 400px;
+	color: white;
+}
+#videoMargin{
+	margin: 15px;
+}
+#tube{
+	font-size: 25px;
+}
+.pId{
+	margin: 10px 0;
+}
+.spanColor{
+	font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+.tube{
+	font-size: 15px;
+}
+.lasT{
+	font-size: 12px;
+	margin: 15px;
+	color: white;
+
+}
+ .pading{
+	margin:  3px;
+}
+.display4{
+
+	margin: 0 auto;
+	width: 945px;
+	background: #2D343E;
+	display: flex;
+}
+#addres
+{
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+}
+#display4{
+	display: none;
+}
+.iconn{
+	font-size: 12px;
+    color: white;
+    margin: 5px;
+}
+.last {
+    margin: 10px;
+}
+#id{
+	margin: 10px;
+}

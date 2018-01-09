@@ -1,0 +1,25 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+.changeBackground{
+	background: #05FAC9;
+	font-weight: bold;
+}
+p{
+	font-family: cursive;
+	font-size: 20px;
+	text-align: center;
+}
+input{
+	width: 300px;
+	height: 50px;
+	margin-top: 25px;
+	text-align: center;
+	background: #05FAC9;
+}
+#div{
+	width: 500px;
+	margin: 0 auto;
+}

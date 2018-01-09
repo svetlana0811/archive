@@ -1,0 +1,109 @@
+@media screen and (min-width: 360px) and (max-width: 1000px ){
+	.hideNav{
+		display: block;
+		width: 70%;
+    	margin: 0 auto;
+	}
+	.logoFooter {
+		width: 78%;
+	}
+	.footerSoc {
+	    color: white;
+	    width: 70%;
+	    display: grid;
+	    margin: 10px auto;
+	}
+	.headerNav{
+		display: none;
+	}
+	footer{
+		height: 280px;
+	}
+	.footerSoc .right{
+		float: none;
+		margin: 5px 0;
+	}
+	.footerContact {
+	    display: grid;
+	    width: 22%;
+	    margin: 0 auto;
+	}
+	.button{
+		width: 90px;
+		margin: 10px 0;
+	}
+	.content div{
+		margin: 5px 0;
+		display: grid;
+	}
+	.content div input , #how{
+		width: 100%;
+		margin: 5px 0;
+	}
+	.content{
+		width: 70%;
+	}
+	p{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.flexable{
+		display: flex;
+	}
+
+	.footerContact div{
+		width: 80%;
+	}
+	.twoInputs , .selectDiv{
+		display: grid;
+        width: 90%;
+	}
+	.twoInputs input, .selectDiv select, .selectDiv input, .emailPhone input , .emailPhone , .textArea , .textArea input{
+		width: 90%;
+	}
+	.checkboxs{
+		display: grid;
+	}
+	.fourDivs{
+		display: grid;
+	}
+	.fourDivs button{
+		margin-top: 5px;
+	}
+	
+.sec7Third>div{
+	width: 100%;
+
+}
+.sec7Third{
+	display: grid;
+}
+.dispGrid{
+	width: 70%;
+}
+h3{
+	margin: 30px 0 10px 0;
+}
+
+.sec7First>div{
+	width: 60%;
+	padding: 2px;
+}
+
+
+
+}
+@media screen and (min-width: 1001px) and (max-width: 1250px ){
+	.twoInputs , .selectDiv{
+		display: grid;
+        width: 90%;
+	}
+	.twoInputs input, .selectDiv select, .selectDiv input, .emailPhone input , .emailPhone , .textArea , .textArea input{
+		width: 90%;
+	}
+	.checkboxs{
+		display: grid;
+	}
+
+}
+

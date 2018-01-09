@@ -1,0 +1,10 @@
+@media screen and (max-width: 950px){
+	.registrDiv{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 550px){
+	.registrDiv{
+		width: 80%;
+	}
+}

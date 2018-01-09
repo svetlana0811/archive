@@ -1,0 +1,809 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mainHeader{
+	height: 48px;
+}
+.borderError{
+	border:1px solid red;
+}
+a{
+	color: white;
+	text-decoration: none;
+
+}
+.mainHeader li{
+	list-style: none;
+	width: 85px;
+}
+@font-face { 
+	font-family: firstFont; 
+	src: url('../fonts/Muli-Black.ttf');
+} 
+.headerNav{
+	    padding: 10px 0;
+    width: 70%;
+    font-size: 13px;
+    opacity: 0.8;
+    margin: 0 auto;
+}
+.headerNav .logo {
+	float: left;
+    margin: 5px;
+}
+.headerNav .logo ul li a img{
+	height: 20px;
+}
+.headerNav .navBar {
+	float: right;
+}
+.navBar a:hover{
+	border-bottom: 1px solid;
+}
+.headerNav .navBar ul{
+	display: flex;
+}
+.headerNav .navBar ul li{
+	font-family: sans-serif;
+	margin: 5px;
+    padding: 5px 0;
+}
+.emptyDiv{
+	height: 90px;
+	background: url('../pictures/Breadcrumbjs.png');
+	background-attachment: fixed;
+	background-position: center;
+	opacity: 0.9;
+}
+.content{
+	width: 70%;
+    margin: 10px auto;
+}
+.content div{
+	    width: 100%;
+    margin: 5px;
+}
+h3{
+	margin: 50px 0 10px 0;
+	font-family: sans-serif;
+}
+.content div input{
+    padding: 10px;
+    width: 49.5%;
+}
+#how{
+	width: 99.5%;
+}
+.inputSubmits button{
+	padding: 10px;
+}
+.content .inputSubmits button ,.content .apply input  {
+	width: 100px;
+    margin: 20px 5px 20px 0;
+    cursor: pointer;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.content .inputSubmits{
+	display: flex;
+}
+p{
+	padding: 5px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.textP{
+	background:#EFEFEF ;
+	font-family: sans-serif;
+}
+footer{
+	height: 230px;
+	background: black;
+}
+.footerContact div img , .footerContact div span{
+	color: white;
+	margin: 5px;
+	font-family: sans-serif;
+	font-size: 12px;
+	opacity: 0.8;
+}
+.footerContact{
+	display: flex;
+	    width: 100%;
+	    margin: 0 auto;
+}
+.footerContact div {
+	width: 25%;
+	display: grid;
+}
+.button{
+	width: 45%;
+    height: 30px;
+    background: #949494;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #949494;
+    margin-left: 55%;
+}
+footer>div a img{
+	width: 25px;
+    margin: 15px 5px;
+    height: 25px;
+}
+.footerSoc{
+	color: white;
+	width: 70%;
+    margin: 40px auto;
+}
+.footerSoc .left{
+	float: left;
+}
+.footerSoc .right{
+	float: right;
+}
+.right a img{
+	height: 15px;
+    width: 15px;
+	margin: 5px;
+}
+.left span{
+	font-family: sans-serif;
+	font-size: 15px;
+	opacity: 0.8;
+	margin: 10px 0;
+}
+.logoFooter {
+    margin: 0 auto;
+    opacity: 0.9;
+}
+header:li:hover{
+	text-decoration: underline;
+}
+.flexable{
+	width: 70%;
+	margin: 0 auto;
+}
+.hideNav{
+	display: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.dropdown {
+	margin: 5px;
+	float: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropbtn, .dropbtn:focus {
+    background-color: #AAA7A1;
+}
+.logo{
+	float: left;
+	margin: 5px;
+}
+.logoPic{
+	width: 20px;
+    height: 20px;
+}
+#myDropdown a:hover{
+	background: #AAA7A1;
+}
+
+
+
+
+.secondMain{
+	width: 70%;
+	margin: 0 auto;
+}
+.firstOfThreeDivs{
+	display: flex;
+	width: 100%;
+	padding-top: 60px;
+	margin-bottom: 20px;
+}
+.joinOur{
+	width: 50%;
+	opacity: 0.8;
+    float: left;
+}
+.joinOur>div p{
+	padding: 15px 0;
+	width: 100%;
+	text-align: left;
+	font-family: sans-serif;
+}
+.basicSpan{
+	font-weight: bold;
+    font-family: sans-serif;
+}
+.joinSpan span{
+	font-size: 20px;
+    font-family: sans-serif;
+}
+.twoInputs input , .selectDiv select , .selectDiv input , .emailPhone input{
+	padding: 8px;
+    width: 46%;
+    margin: 8px 15px 10px 0;
+}
+.selectDiv select , .selectDiv inpu {
+    opacity: 0.8
+}
+.areaYouCan{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.checkboxs{
+	display: flex;
+	margin: 30px 0;
+	font-family: sans-serif;
+}
+.checkboxs>div{
+	display: grid;
+	margin-right: 4%;
+	opacity: 0.8;
+}
+.checkboxs>div div{
+	margin: 5px 0;
+}
+.pictureBack{
+	width: 50%;
+    background: url(../pictures/image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    margin: 0 0 0 10px;
+}
+.textArea input{
+	width: 95.5%;
+        padding: 8px 8px 71px 8px;
+    margin: 8px 15px 10px 0;
+}
+.contactUs input{
+	width: 120px;
+    margin: 10px 5px 20px 0;
+    cursor: pointer;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+}
+.secondTwopart{
+	display: flex;
+	padding: 25px 0;
+}
+.secondTwopart>div{
+	width: 50%;
+}
+.emptyBackDiv{
+	background: url(../pictures/Imag1e.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: bottom;
+    margin: 0 20px 0 0;
+}
+ h4{
+	font-family: sans-serif;
+}
+.workWithUs p{
+	opacity: 0.8;
+	font-size: 15px;
+	width: 100%;
+	text-align: left;
+	font-family: sans-serif;
+}
+.fourDivs{
+	border-bottom: 1px solid;
+    padding: 15px 0;
+    font-size: 15px;
+    margin: 0 10px 0 0;
+}
+.fourDivs button{
+	    float: right;
+    background: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fourDivs span{
+	font-family: sans-serif;
+}
+.fourDivs span i{
+	margin: 0 10px 0 0;
+}
+.careerAt>div {
+	width: 50%;
+}
+.careerAt{
+	display: flex;
+    margin-bottom: 50px;
+}
+.careerAt >div> button{
+	padding: 8px 25px;
+    margin: 20px 0 0 0;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    border: 1px solid black;
+    font-size: 10px;
+}
+.thirdEmptyDiv{
+	background: url(../pictures/Ima5ge.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    margin: 0 0 0 10px;
+}
+.thirdMain >div , .forthMain>div{
+	width: 70%;
+	    font-family: sans-serif;
+	margin: 20px auto;
+}
+.thirdMain  p{
+	text-align: left;
+	margin: 10px 0;
+	padding: 5px 0;
+	width: 100%;
+
+}
+.thirdMain ul p{
+	text-align: left;
+		padding: 0 0 0 35px;
+}
+
+.thirdMain button{
+	padding: 8px 40px;
+    margin: 20px 0 0 0;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    border: 1px solid black;
+    font-size: 13px;	
+}
+.thirdMain h3{
+	font-weight: 100;
+    width: 95%;
+}
+.thirdMain ul{
+	    margin-left: 45px;
+}
+
+.forthMain>div{
+	width: 70%;
+	margin: 20px auto;
+}
+
+.london , .newYork{
+	width: 49%;
+}
+.cityes{
+	display: flex;
+}
+.london{
+	background: url(../pictures/London.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    
+}
+.newYork{
+	background: url(../pictures/ny-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    margin: 0 0 0 10px;
+}
+.contactInputs   .marginLeft{
+	margin-left: 10px;
+}
+.contactUsInp{
+	margin: 30px 0;
+	display: grid;
+}
+.contactUsInp h4{
+	margin: 20px 0;
+}
+.newYork h1 , .london h1{
+	color: white;
+    padding: 30px 0 5px 30px;
+}
+.newYork span , .london span{
+	    color: white;
+    font-size: 12px;
+    padding-left: 31px;
+}
+.londonNew{
+	background-color: rgba(0,0,0,0.3);
+	    padding-bottom: 45px;
+}
+.contactInputs{
+	display: flex;
+}
+.contactInputs input{
+	width: 49%;
+	    padding: 10px;
+    margin: 5px 0;
+}
+.contactInputs .textareaInp{
+	width: 99%;
+	padding-bottom: 70px;
+}
+.sendMessage{
+	padding: 8px 40px;
+    margin: 15px 0 0 0;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    border: 1px solid black;
+    font-size: 13px;	
+}
+.textPerson{
+	padding: 15px;
+    margin: 50px 0;
+    background: #f1f1f1;
+}
+
+.section5 , .section6{
+	width: 70%;
+	margin: 0 auto;
+	
+}
+.sec5Title{
+	height: 100%;
+	background: url(../pictures/adv-impl-intro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+	margin: 20px auto;
+}
+.howDoesPic{
+	background: url(../pictures/hire-us-right.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.individualPic{
+	background: url(../pictures/single-post-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.advenced ,.yourParents{
+	background: black;
+    color: white;
+	font-family: sans-serif;
+	padding: 50px 10px;
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+}
+.advenced p , .yourParents p{
+	opacity: 0.8;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.partOfParrent{
+	width: 60%;
+	font-family: sans-serif;
+	margin: 0 auto
+}
+
+.invisible p{
+	text-align: left;
+	width: 100%;
+	padding: 0;
+	opacity: 0.8;
+	font-size: 15px;
+    margin: 20px 0;
+}
+.knowleg>div{
+	width: 50%;
+    padding: 0px 0 0 20px;
+    margin: 10px 0;
+}
+.knowleg{
+	display: flex;
+}
+.knowleg>div p , .personalInt>div p , .threeDivs> div p{
+	text-align: left;
+    width: 100%;
+    opacity: 0.8;
+    font-size: 14px;
+    padding: 0;
+}
+.emptyDivBack{
+	background: url(../pictures/infidelity-sign.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    margin: 0 35px;
+}
+.knowleg>div h3 , .personalInt>div h3 ,.threeDivs> div h3{
+	margin: 0;
+}
+.personalInt{
+	display: flex;
+}
+.personalInt>div{
+	width: 50%;
+    padding: 0 20px 0 0;
+    margin: 10px 0;
+}
+.sec6Title{
+	height: 100%;
+	background: url(../pictures/advice-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+	margin: 20px auto;
+}
+.sec8Empty{
+	background: url(../pictures/restaurant-business.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.threeDivs{
+	display: flex;
+	margin: 20px 0;
+    font-family: sans-serif;
+
+}
+.emptyDivBack>div , .sec8Empty>div{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.threeDivs> div{
+	width: 33.33%;
+}
+.fourProcents>div{
+    margin: 25px 0;
+}
+.fourProcents>div h2{
+	font-size: 20px;
+    opacity: 0.9;
+}
+.section7{
+	opacity: 0.8;
+	margin: 20px auto;
+	font-family: sans-serif;
+	width: 100%;
+	background: #EFEFEF;
+	text-align: center;
+}
+.section7 h4{
+	padding: 30px 0;
+    color: red;
+}
+.section7  p{
+	width: 70%;
+	font-size: 15px;
+    padding-bottom: 50px;
+}
+.section8{
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.section8>div{
+	width: 50%;
+
+}
+.sec8ThreeDivs{
+	font-family: sans-serif;
+    display: flex;
+    font-size: 15px;
+}
+.sec8ThreeDivs div{
+	width: 50%;
+	padding: 5px 15px 5px 0;
+}
+.sec8ThreeDivs div p , .section9>div>div p , .section10>div p , .individualDiv>p{
+	width: 100%;
+    padding: 0;
+    opacity: 0.7;
+    text-align: left;
+    margin: 5px 0;
+    font-family: sans-serif;
+}
+.section9>div>div p {
+	padding-right: 5px;
+	font-size: 13px;
+}
+.section9>div>div{
+	width: 33.33%;
+	display: grid;
+	text-align: left;
+
+}
+.section9>div{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	padding: 30px 0;
+}
+.icons{
+	margin: 10px 0;
+}
+.section9{
+	background: black;
+	color: white;
+	margin: 10px 0;
+}
+.icons span i{
+	padding: 15px 0;
+    font-size: 22px;
+    color: red;
+}
+.section10{
+	width: 70%;
+	margin:50px auto;
+	display: flex;
+}
+.section10>div{
+	width: 50%;
+}
+.emptyComp{
+	margin-right: 8%;
+	background: url(../pictures/Intro.png);
+    background-repeat: no-repeat;
+    background-size:  100%;
+    background-position: center;
+}
+.sec7First{
+	background: url(../pictures/individuals-surveillance.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+}
+.sec7First>div{
+	text-align: center;
+	font-family: sans-serif;
+	background: black;
+	width: 40%;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+.evidence{
+	background: url(../pictures/clouds_over_parliament_1020.0.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    background-position: bottom;
+}
+.individualDiv {
+	width: 70%;
+	padding-top: 45px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+.borderDiv{
+	width: 70%;
+	padding: 70px 0;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+.individualDiv>p{
+	padding-top: 20px;
+	font-size: 12px;
+}
+.dispGrid{
+	display: grid;
+	width: 50%;
+}
+.flexDivs{
+	display: flex;
+    width: 100%;
+}
+.dispGrid p , .sec7Third>div>p{
+	padding: 10px 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+.borderforIt{
+	border-bottom: 1px solid red;
+	margin: 15px 0;
+}
+.sec7Third{
+	display: flex;
+	width: 70%;
+	line-height: 18px;
+	margin: 20px auto;
+	font-family: sans-serif;
+}
+.sec7Third>div{
+	width: 50%;
+	padding: 15px;
+}
+.blackBack{
+	background-color: black;
+	color: white;
+
+}
+.blackBack>div>p{
+	font-size: 12px;
+	padding: 0;
+	margin: 10px 0;
+	width: 100%;
+	text-align: left;
+}
+.blackBack h5{
+	font-size: 12px;
+}
+.blackBack>div{
+	width: 60%;
+	margin: 55px auto;
+}
+.headerBackground{
+	width: 55%;
+    margin: 0 auto;
+    padding: 100px 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.headerBackground h1{
+	width: 50%;
+	font-size: 30px;
+    margin: 50px auto;
+}
+.headerBackground p{
+	margin: 50px auto;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.headerBackground button{
+	background: black;
+    border: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 10px;
+    margin: 20px;
+}
+header{
+	width: 100%;
+	background: url(../pictures/London.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}

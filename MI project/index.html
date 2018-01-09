@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script src="Js/jquery-3.2.1.min.js"></script>
+    <script src="Js/script.js"></script>
+</head>
+<body>
+<header>
+	<div style="background-color:gray;">
+	<div class="mainHeader">
+		<div class="hideNav">
+			<div class="logo">
+				<ul>
+					<li>
+						<a href="index.html"><img class="logoPic"  src="pictures/logo.png" alt="logo"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="dropdown">
+			  <button class="dropbtn">Menu <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+			  <div id="myDropdown" class="dropdown-content">
+			  	<a href="#" class="home">Home</a>
+			    <a href="#" class="about">About</a>
+			    <a href="#" class="services">Services</a>
+			    <a href="#" class="careers">Careers</a>
+			    <a href="#" class="faq">FAQ</a>
+			    <a href="#" class="contact">Contact Us</a>
+			  </div>
+			</div>
+		</div>
+		<div  class="headerNav">
+			<div class="logo">
+				<ul>
+					<li>
+						<a href="index.html"><img  class="logoPic" src="pictures/copy.png"  alt="logo"></a>
+					</li>
+					<li style="display: none;">
+						<a href="index.html"><img src="pictures/logo.png" alt="logo"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="navBar">
+				<ul>
+					<li><a href="#" class="home">Home</a></li>
+					<li><a href="#" class="about">About</a></li>
+					<li><a href="#" class="services">Services</a></li>
+					<li><a href="#" class="careers">Careers</a></li>
+					<li><a href="#" class="faq">FAQ</a></li>
+					<li><a href="#" class="contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div style="display: none;" class="headerBackground">
+		<h1>Worldwide Private Investigators & Intelligent Services</h1>
+		<div></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste obcaecati soluta, aspernatur natus alias. Ducimus fuga asperiores, quod, ea impedit obcaecati doloremque quos molestias neque at earum quas laborum deserunt aliquid doloribus ut.</p>
+		<button>READ MORE</button>
+	</div>
+	</div>
+</header>
+	<section class="homeDiv" style="display: none;">
+		<div class="emptyDiv"></div>
+		<form   action="index.html" method="post" id="form">
+			<div class="content">
+				<div>
+					<h3>Are you one of us?</h3>
+				</div>
+				<div>
+					<input class="inputs" type="text" placeholder="First name" name="firstName" id="firstName">
+					<input class="inputs" type="text" placeholder="Last Name" name="lastName" id="lastName">
+				</div>
+				<div>
+					<input class="inputs" type="text" placeholder="Email" name="email" id="email">
+					<input class="inputs" type="text" placeholder="Phone" name="phone" id="phone">
+				</div>
+				<div>
+					<input class="inputs" type="text" placeholder="Linkedin profile" name="linkedin" id="linkedin">
+					<input class="inputs" type="text" placeholder="Website" name="website" id="website">
+				</div>
+				<div>
+					<input class="inputs" type="text" placeholder="How did you hear about this job?" name="how" id="how">
+				</div>
+				<div class="inputSubmits">
+					<button>RESUME</button> 
+					<button>COVER LETTER</button>
+				</div>
+				<div class="textP">
+					<p>
+						Personal data will be collected and processed through an electronic system managed by ISRA. We will process data according to applicable security requirements to minimize the risks of data destruction and loss, even accidental, of unauthorized access, unlawful processing or processing that does not comply with the purposes of data collection and of illicit or not correct use of data. Moreover, information system and programs are configured so as to minimize the use of personal and identification data so that said data are used only when necessary to the specific processing purpose from time to time sought.
+					</p>
+				</div>
+				<div class="apply">
+					<input type="submit" value="APPLY">
+				</div>
+			</div>
+		</form>
+	</section>
+	<section class="secondMain"  style="display: none;">
+		<div class="firstOfThreeDivs">
+			<div class="joinOur">
+				<div class="joinSpan">
+					<span>Join our intelligence network!</span>
+					<p>
+						Professional investigative work depends on accurate information, which often is hard 	to come by. This means that good relations with observant and dependable, 				strategically placed contacts are very important to us. While we generously reward 		informants who provide relevant information, we also guarantee absolute 				confidentiality.
+					</p>
+				</div>
+				<div>
+					<form action=""> 
+						<div>
+							<span class="basicSpan">Basic information about yourself</span>
+							<div class="twoInputs">	
+								<input type="text" placeholder="Name">
+								<input type="text" placeholder="Title">
+							</div>
+							<div class="selectDiv">	
+								<select name="" id="">
+									<option value="country">Country</option>
+									<option value="armenia">Armenia</option>
+									<option value="england">England</option>
+									<option value="usa">USA</option>
+									<option value="france">France</option>
+								</select>
+								<input type="text" placeholder="City">
+							</div>
+						</div>
+						<div>
+							<span class="areaYouCan">Areas that you can provide information from</span>
+							<div class="checkboxs">
+							<div >
+								<div>
+									<input  name="healt" id="healt" value="healt" type="checkbox"><label for="healt">Healt Care and Hospitals</label> 
+								</div>
+								<div>
+									<input  name="law" id="law" value="law" type="checkbox"><label for="law">Law Enforcement and Authorities</label> 
+								</div>
+								<div>
+									<input  name="hacking" id="hacking" value="hacking" type="checkbox"><label for="hacking">Hacking and Computers</label> 
+								</div>
+								<div>
+									<input  name="news" id="news" value="news" type="checkbox"><label for="news">News media</label> 
+								</div>
+								<div>
+									<input  name="insurance" id="insurance" value="insurance" type="checkbox"><label for="insurance">Insurance</label> 
+								</div>
+								<div>
+									<input  name="hotels" id="hotels" value="hotels" type="checkbox"><label for="hotels">Hotels</label> 
+								</div>
+							</div>
+							<div >
+								<div>
+									<input  name="airlines" id="airlines" value="airlines" type="checkbox"><label for="airlines">Airlines and Airports</label> 
+								</div>
+								<div>
+									<input  name="telecommunications" id="telecommunications" value="telecommunications" type="checkbox"><label for="telecommunications">Telecommunications</label> 
+								</div>
+								<div>
+									<input  name="publishing" id="publishing" value="publishing" type="checkbox"><label for="publishing">Publishing</label> 
+								</div>
+								<div>
+									<input  name="bank" id="bank" value="bank" type="checkbox"><label for="bank">Bank and Finance</label> 
+								</div>
+								<div>
+									<input  name="car" id="car" value="car" type="checkbox"><label for="car">Car Rentals</label> 
+								</div>
+								<div>
+									<input  name="other" id="other" value="other" type="checkbox"><label for="other">Other</label> 
+								</div>
+							</div>
+						</div>
+						</div>
+						<div>
+							<div class="emailPhone">
+								<input type="email" placeholder="Email">
+								<input type="text" placeholder="Phone">
+							</div>
+							<div class="textArea">
+								<input type="text" name="" id="" placeholder="Additional information">
+							</div>
+						</div>
+						<div class="contactUs">
+							<input type="submit" name="submit" id="submit" value="Contact Us">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="pictureBack"></div>
+		</div>
+		<div class="secondTwopart">
+			<div class="emptyBackDiv"></div>
+			<div class="workWithUs">
+				<h4>Work with us</h4>
+				<p>You probably arrived to this page because you are interested in working with ISRA. We receive many unsolicited applications from people enquiring about jobs. While this is flattering and we hear from a lot of interesting and competent people, we simply don’t have time to reply to them all. Here are some of the things you need to know about our staffing policies.
+				Our clients are picky about who they hire to deal with their confidential business or private lives. Naturally, we are just as choosy about who we hire to help us do that job. In essence, we handpick people.
+				When we are looking for staff, some professional backgrounds are more interesting to us than others. A fitting candidate might have a background in security services or diplomacy, legal professions, law enforcement or investigative journalism.
+				Should you have a fitting professional background, you are welcome to send us your CV. If we are interested we will get back to you. If you don’t hear from us, this means that we have no position suitable for your qualifications.</p>
+			</div>
+		</div>
+		<div class="careerAt">
+			<div>
+				<h4>Careers At MI</h4>
+				<div class="fourDivs">
+					<span><i class="fa fa-angle-right" aria-hidden="true"></i>VIP Coordinator - Barcelona / Spain</span>
+					<button>Apply</button>
+				</div>
+				<div class="fourDivs">
+					<span><i class="fa fa-angle-right" aria-hidden="true"></i>Cyber Defence Expert - Germany / Berlin</span>
+					<button>Apply</button>
+				</div>
+				<div class="fourDivs">
+					<span><i class="fa fa-angle-right" aria-hidden="true"></i>Researcher - Sweden / Stockholm</span>
+					<button>Apply</button>
+				</div>
+				<div class="fourDivs">
+					<span><i class="fa fa-angle-right" aria-hidden="true"></i> Researcher - USA / New York</span>
+					<button>Apply</button>
+				</div>
+				<button>VIEW ALL</button>
+			</div>
+			<div class="thirdEmptyDiv"></div>
+		</div>
+	</section>
+	<section class="thirdMain" style="display: none;">
+		<div>
+			<h3>MI seeks qualified applicants for anISRA seeks qualified applicants for an open VIP Coordinator position located in London, UK</h3>
+			<span>Overview:</span>
+			<p>The VIP Coordinator is a hybrid position that will be focused on leading a wide range of 			and is the primary liaison between field personnel and internal stakeholders at ISRA 	Barcelona 	  office in 
+				scheduling and managing numerous activities related to corporate visits. The VIP coordinator must possess acute attention to detail, good organizational skills and focus on customer service are essential.
+			</p>
+			<p>The job requires the candidate to carry high level of responsibility. The job requires the 			candidate to have a strong self-starting qualities to independently manage coordination of 			multiple projects in a 
+				fast-paced, deadline driven environment
+			</p>
+			<span>Responsibilities:</span>
+			<ul>
+				<li><p>
+					Manage inquiries and requests for corporate visits from field personnel, colleagues, visitors 	  and others</p>
+				</li>
+				<li>
+					<p>Schedule visits in accordance with established protocols</p>
+				</li>
+				<li>
+					<p>Manage visit-related logistics e.g. communication with Travel Department, reserving necessary corporate facilities, communicating with key internal stakeholders regarding visit requirements and objectives</p>
+				</li>
+				<li>
+					<p>Develop Agenda for Visit</p>
+				</li>
+				<li>
+					<p>Host VIP visitors for the duration of their visit, facilitating meetings and activities with in-house personnel</p>
+				</li>
+				<li>
+					<p>Lead a tour of the facility for VIP visitors</p>
+				</li>
+				<li>
+					<p>Work closely with other groups to ensure VIP visit objectives are met</p>
+				</li>
+				<li>
+					<p>Assist team members in any International VIP visit related activities such as scheduling meetings or ordering supplies.</p>
+				</li>
+				<li>
+					<p>Represent the company in a professional manner to visitors</p>
+				</li>
+				<li>
+					<p>Participate in management meetings on strategic initiatives and business planning as indicated</p>
+				</li>
+				<li>
+					<p>Special projects and duties as assigned</p>
+				</li>
+			</ul>
+			<span>Experience and Skills Requirements:</span>
+			<ul>
+				<li>
+					<p>Previous VIP coordinating experience required</p>
+				</li>
+				<li>
+					<p>Working knowledge of marketing fundamentals and tools</p>
+				</li>
+				<li>
+					<p>Understanding of briefing centre and briefing management tools</p>
+				</li>
+				<li>
+					<p>Good written/oral/interpersonal communications</p>
+				</li>
+				<li>
+					<p>Demonstrable knowledge of MS Office suite of tools – Outlook, Word, Excel, etc.</p>
+				</li>
+				<li>
+					<p>Polished and professional approach and demeanour
+				</li>
+				<li>
+					<p>Ability to successfully work on multiple items and priorities in a changing environment with minimal loss of productivity</p>
+				</li>
+				<li>
+					<p>Oral communication- Verbally communicates information clearly and concisely</p>
+				</li>
+				<li>
+					<p>Written communication: Expresses oneself thoroughly and completely in writing</p>
+				</li>
+			</ul>
+			<button id="appLy">Apply</button>
+		</div>
+	</section>
+<section style="display: none;" class="forthMain">
+	<div>
+		<div class="cityes">
+			<div class="london">
+				<div class="londonNew">
+					<h1>London</h1>
+					<span>United Kingdom</span>
+				</div>
+			</div>
+			<div class="newYork">
+				<div class="londonNew">
+					<h1>New York</h1>
+					<span>United States of America</span>
+				</div>
+			</div>
+		</div>
+		<form action="" method="post">
+		<div class="contactUsInp">
+			<h4>Contact Us</h4>
+			<div class="contactInputs">
+				<input type="text" placeholder="First Name">
+				<input type="text" class="marginLeft" placeholder="Last Name">
+			</div>
+			<div class="contactInputs">
+				<input type="text" placeholder="Title">
+				<input type="email" placeholder="Email" class="marginLeft">
+			</div>
+			<div class="contactInputs">
+				<input type="text" placeholder="Phone">
+				<input type="text" placeholder="Country" class="marginLeft">
+			</div>
+			<div class="contactInputs">
+				<input type="text" placeholder="Department">
+				<input type="text" class="marginLeft" placeholder="Subject">
+			</div>
+			<div class="contactInputs">
+				<input type="textarea" class="textareaInp" placeholder="Massage">
+			</div>
+		</div>
+		<input type="submit" class="sendMessage" value="SEND">
+		</form>
+		<div class="textPerson">
+			Personal data will be collected and processed through an electronic system managed by ISRA. We will process data according to applicable security requirements to minimize the risks of data destruction and loss, even accidental, of unauthorized access, unlawful processing or processing that does not comply with the purposes of data collection and of illicit or not correct use of data. Moreover, information system and programs are configured so as to minimize the use of personal and identification data so that said data are used only when necessary to the specific processing purpose from time to time sought.
+		</div>
+	</div>
+</section>
+
+<section style="display: none;"  class="section5">
+	<div class="sec5Title">
+		<div class="advenced">
+			<h2>Advanced Implementations</h2>
+			<p>We don’t only deploy the most cutting edge, state-of-the-art security and surveillance equipment. We also use our own unique software and hardware solutions.</p>
+		</div>
+	</div>
+	<div class="partOfParrent">
+		<div class="invisible">
+			<h3>Invisible surveillance!</h3>
+			<p>
+				ISRA provides advanced implementations of surveillance and security technologies, tailored to the unique needs of our clients. We frequently provide installations that are completely invisible to a third party. Unique installations of this kind are very difficult to spot, also for people with experience of security technologies, and thus provide substantial advantage for our clients.
+			</p>
+		</div>
+		<div class="knowleg">
+			<div class="howDoesPic"></div>
+			<div>
+				<h3>How does it work?</h3>
+			<p>
+				Our knowledgeable security engineers install sound or video recording equipment in furniture or objects typical to the surveyed environment, such as microwave ovens in the kitchen, toys in the crèche, or power sockets or outlets in just about any room. Installations of this type blend perfectly with their environment and resist detection. The same type of implementations can be installed in cars or other vehicles. Successful advanced implementation requires that our technicians are well informed in advance about the layout of your particular location. 
+				Make contact and discuss your particular needs!
+			</p>
+			</div>
+		</div>
+		<div class="invisible">
+			<h3>Security screening of office or home & securing locations</h3>
+			<p>
+				ISRA protects your home, office environment or temporary locations from bugging, eavesdropping and other forms of integrity breaches or espionage. While digital technologies involve new risks to your corporate and private integrity, all of the old threats of acoustic bugging and video surveillance remain. Our corporate clients frequently turn to us to investigate and eliminate the risk of electronic eavesdropping, typically prior to the relocation to new offices or in advance of events in conference facilities.
+			</p>
+		</div>
+		<div class="personalInt">
+			<div>
+				<h3>Personal integrity preparedness </h3>
+			<p>
+				Individuals have different reasons to wish to control the amount of personal information that they make publicly accessible. ISRA helps victims of crime, high-net-worth individuals, celebrities and individuals who for other reasons take their personal integrity seriously, to monitor, control and reduce public exposure in everyday life, business and travel. ISRA boasts the state-of-the-art equipment and expertise to assist clients serious about their IT-security preparedness. Beyond swift and effective response to network breaches and other incidents, we help our clients improve their IT-security 
+			</p>
+			</div>
+			<div class="individualPic"></div>
+		</div>
+		<div class="invisible">
+			<h3>Who needs physical protection?</h3>
+			<p>
+				The needs and circumstances that compel individuals to request our private security services differ, but we commonly accept assignments from executives and high net-worth individuals particularly exposed to risk. Another client category consists of individuals affected by stalking or other crimes, where the legal authorities might not provide the necessary security support. In each case, ISRA is there to listen, advice and provide for your particular security needs.
+			</p>
+		</div>
+	</div>
+</section>
+<section class="fullSection6" style="display: none;">
+<div class="section6">
+	<div class="sec6Title">
+		<div class="yourParents">
+			<h2>Is your partner cheating on you?</h2>
+			<p>We deliver facts and proof of infidelity, and we do it good. Our combination with technology and surveillance techniques we give you everything you need to know - wherever you are.</p>
+		</div>
+	</div>
+	<div class="threeDivs">
+		<div>
+			<h3>How does it work?</h3>
+			<p>
+				People are very creative when the lie, and when they managed to do this for a long time ( many time for more than 10-15 years), they get good at it. They lie, and you- as his partner don't see the signs, and you dont see anything abnormal. We seen people boarding a plane without actually beeing on the flight. We've seen cheaters having multiple affairs at once, and we seen cheaters living a double life. The list continues; We see people having totally another activities on that business trip, we seen neighbours having affairs and many other things. All this is buiding up an experience.
+				Our investigators know the patterns to look for when monitoring suspected cheaters. We know how cheaters hide their tracks, and we know how to catch them red handed. We even know the type of lies they tell their partners. Most important of all we know how to catch them.
+			</p>
+		</div>
+		<div class="emptyDivBack">
+			<div></div>
+		</div>
+		<div class="fourProcents">	
+			<div>
+				<h2>90%</h2>
+				<p>
+					Of all infidelity cases we get in turned out to be correct and we can get proof of infidelity.
+				</p>
+			</div>
+			<div>
+				<h2>60%</h2>
+				<p>
+					60% of all cheating affairs begin at work according to our experience/statstics.
+				</p>
+			</div>
+			<div>
+				<h2>2 YEAR</h2>
+				<p>
+					2 years after being together is the average time that your relationship is at risk.
+				</p>
+			</div>
+			<div>
+				<h2>40%</h2>
+				<p>
+					Women cheat 40% and same numbers for men are 40%.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section7">
+	<h4>Some Case Studies</h4>
+	<p>
+		Our experience has shown that infidelity can happen to anyone. Our clients are rich and poor, good looking and unattractive, young and old. What your partner does when you’re not looking says absolutely nothing about who you are or where you live.
+	</p>
+</div>
+<div class="section8">
+	<div>
+		<div class="sec8ThreeDivs">
+			<div>
+				<h5>Your sex-life have been worse and worse lately.</h5>
+				<p>Your partner is always giving you excuses, as "tired" or don't feel to, or similar.</p>
+			</div>
+			<div>
+				<h5>Your partner acting strange and crying with no reason.</h5>
+				<p>
+					This is very common behavious if your partner is in love in someone else but is afraid to tell you the bad news.
+				</p>
+			</div>
+		</div>
+		<div class="sec8ThreeDivs">
+			<div>
+				<h5>Your partner suddenly gets "New friends" from nowhere.</h5>
+				<p>
+					If your partner suddenly starts seeing new friends for afterwork or weekends, your should watch out.
+				</p>
+			</div>
+			<div>
+				<h5>Your partner doesn't call you like she/he did before.</h5>
+				<p>
+					Changed behavior in communication overall might mean the interest have gone down.
+				</p>
+			</div>
+		</div>
+		<div class="sec8ThreeDivs">
+			<div>
+				<h5>Your partner is always coming home late from work.</h5>
+				<p>
+					The most common time for a man or woman to meet with their significant other is directly after work.
+				</p>
+			</div>
+			<div>
+				<h5>A specific name is always coming up in conversation.</h5>
+				<p>
+					If your partner is always thinking about someone else when they are with you, they’ll probably mention their name repeatedly.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="sec8Empty">
+		<div></div>
+	</div>
+</div>
+<div class="section9">
+	<div>
+		<div>
+			<div class="icons">
+				<span><i class="fa fa-signal" aria-hidden="true"></i></span>
+				<h5>
+					Advanced mobile signal surveillance
+				</h5>
+			</div>
+			<div>
+				<p>
+					Our working methods are unique, and we have the right resolurces to do more advanced investigations.
+				</p>
+			</div>
+		</div>
+		<div>
+			<div class="icons">
+				<span><i class="fa fa-globe" aria-hidden="true"></i></span>
+				<h5>
+					Any investigation can be conducted Worldwide
+				</h5>
+			</div>
+			<div>
+				<p>
+					With multipe offices in Stockholm, Gothenburg, London, New York, Berlin, Oslo, Barcelona, Zagreb and Tel Aviv we can assist you faster than ever.
+				</p>
+			</div>
+		</div>
+		<div>
+			<div class="icons">
+				<span><i class="fa fa-lightbulb-o" aria-hidden="true"></i></span>
+				<h5>
+					You tell us your problem and we present you the solution
+				</h5>
+			</div>
+			<div>
+				<p>
+					Our working methods are unique, and we have the right resolurces to do more advanced investigations.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div  class="section10">
+	<div class="emptyComp"></div>
+	<div class="sec10Div">
+		<h4>
+			Recover deleted information from phones, tablets, 
+			computers and other digital devices
+		</h4>
+		<p>
+			ISRA offers a complete forensic lab where we can do wonders with any digital information. Often when working with investigations - especially infidelity investigation - the deleted information on a phone, iPad or computer will most likely to reveal their hidden activities, their contacts, their messages, and everything else that your partner is not telling you about. We strongly recommend you to contact us and discuss the available options for a complete forensic investigation.
+		</p>
+	</div>
+</div>
+</section>
+
+<section  class="fullSection7">
+	<div>
+	<div class="sec7First">
+		<div>
+			<h3>
+				Surveillance Operations & Private Intelligence
+			</h3>
+			<p>
+				Leading security & detective agency in Europe providing tailored services to individual cases on a global scale.
+			</p>
+		</div>
+	</div>
+	<div class="evidence">
+		<div class="individualDiv">
+			<h4>
+				Evidence or Your Own Personal Knowledge?
+			</h4>
+			<p>
+				Individuals hire ISRA for any circumstance where surveillance is needed to shine a light on a situation. Some of the most common reasons for private investigations for individuals are: suspicions of an unfaithful partner and parents wanting to know more about what their children do in their spare time. People who believe their partner is cheating or, are worried about whether or not their child is lying about their after school activities often hire ISRA to shed light on the situation and get the facts straight before any confrontation occurs.
+				We also provide tailored services for companies who are suspicion of a member of their team. For more information visit our Surveillance for Companies Page
+			</p>
+		</div>
+		<div class="borderDiv">
+			<div class="dispGrid borderforIt">
+				<h2>12640</h2>
+				<p>
+					surveillance hours worked 2015
+				</p>
+			</div>
+			<div class="dispGrid">
+				<div class="flexDivs">
+					<div class="dispGrid">
+						<h2>30%</h2>
+						<p>private investigations</p>
+					</div>
+					<div class="dispGrid">
+						<h2>51%</h2>
+						<p>company related investigations</p>
+					</div>
+				</div>
+				<div class="flexDivs">
+					<div class="dispGrid">
+						<h2>9%</h2>
+						<p>Investigations for authorities</p>
+					</div>
+					<div class="dispGrid">
+						<h2>7%</h2>
+						<p>Insurance investigations</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="sec7Third">
+			<div>
+				<h4>Our Unique Surveillance Techniques are Discreet and Efficient</h4>
+				<p style="    line-height: 24px; font-size: 12px;">
+					People often think that surveillance is a person who follows others taking pictures on them. Our surveillance methods are unique and we always prepare each case with a minimum of three investigators to ensure quality services. We are one of the top ranked teams in the world and our clients come to us for serious surveillance services. Our services are adapted to each case and depend on the person that is being investigated. We adapt quickly to each situation and always have full control of the situation in order to document everything so that our clients have the proof they need.
+					Working with surveillance means you need resources. We have access to aerial, ground and water borne surveillance. Our technology is unique and our team knows there is no room for mistakes or failure. Our professionals always know the right procedures to take and have the adequate experience to undertake each case correctly.
+				</p>
+			</div>
+			<div class="blackBack">
+				<div>
+					<h5>Providing Tailored Surveillance Services to Individuals</h5>
+					<p>
+						ISRA’s professional surveillance services are are tailored to meet each individuals needs- and we have the resources and skills to make sure that we do just that. Unfortunately, failed surveillance is often caused by amateur services or so called private detectives who work individually. Aside from alerting the suspect and losing the evidence, this can put a person's personal relationships at risk. We respect an individual's private life therefore we will ensure your surveillance needs are always handled professionally with a level of compassion.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="sec7Forth">
+			<div>
+				<div class="roundBackdiv"></div>
+				<div></div>
+			</div>
+			<div></div>
+		</div>
+	</div>
+</section>
+	<footer>
+		<div class="flexable">
+			<div class="logoFooter">
+				<a href="index.html"><img src="pictures/copy.png"  alt="logo"></a>
+			</div>
+			<div class="footerContact">
+				<div>
+					<img src="pictures/ff.png" alt="pic">
+					<span>Address line #1</span>
+				</div>
+				<div>
+					<img  src="pictures/h.png" alt="pic">
+					<span>contact@intelligence.com</span>
+				</div>
+				<div>
+					<img src="pictures/.png" alt="pic">
+					<span>+921 222 2222</span>
+				</div>
+				<div>
+					<button class="button">
+						CONTACT US
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="footerSoc">
+			<div class="left">
+				<span> © Copyright 2017 Ml. All rights reserved.</span>
+			</div>
+			<div class="right">
+				<a href=""><img src="pictures/c.png" alt="pic"></a>	
+				<a href=""><img src="pictures/o.png" alt="pic"></a>	
+				<a href=""><img src="pictures/s.png" alt="pic"></a>	
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

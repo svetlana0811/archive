@@ -1,0 +1,32 @@
+body{
+	background: #DDD7D5;
+}
+#image{
+	margin-top: 200px;
+	
+	height: 400px;
+	width: 400px;
+	position: absolute;
+}
+#ball{
+	
+	height: 50px;
+	width: 50px;
+	animation-delay: 1s;
+	 position: absolute;
+    animation-name: test;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+@keyframes test {
+    0%{ transform:rotate(360deg); transition: 6s; left: 0; top: 160px}
+    10%{ left: 125px; top: 160px}
+    20%{ left:125px; top: 250px}
+    30%{ left: 220px ; top: 250px }
+    40%{ left: 220px; top: 350px}
+    50%{ left:320px; top: 350px }
+    60%{ left:320px; top:445px }
+    70%{ left:410px; top:450px }
+    80%{ left:410px; top:580px }
+    100%{ left:90%; top:90% }
+}
